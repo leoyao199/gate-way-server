@@ -1,4 +1,4 @@
-export default [
+module.exports = ({env}) => ( [
   'strapi::errors',
   {
     name: 'strapi::security',
@@ -12,14 +12,14 @@ export default [
             'data:',
             'blob:',
             'dl.airtable.com',
-            'gate-way-image-bucket.s3.ap-southeast-1.amazonaws.com',
+            env('AWS_BUCKET')+'.s3.ap-southeast-1.amazonaws.com',
           ],
           'media-src': [
             "'self'",
             'data:',
             'blob:',
             'dl.airtable.com',
-            'gate-way-image-bucket.s3.ap-southeast-1.amazonaws.com',
+            env('AWS_BUCKET')+'.s3.ap-southeast-1.amazonaws.com',
           ],
           upgradeInsecureRequests: null,
         },
@@ -34,5 +34,4 @@ export default [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-];
-
+])
