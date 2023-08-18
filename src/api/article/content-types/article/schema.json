@@ -53,7 +53,16 @@
       "options": {
         "preset": "toolbar"
       },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "vn_title": {
+      "type": "string",
+      "required": true
+    },
+    "vn_description": {
+      "type": "string",
+      "required": true
     }
   }
 }
