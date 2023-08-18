@@ -4,14 +4,15 @@
   "info": {
     "singularName": "tag",
     "pluralName": "tags",
-    "displayName": "tag"
+    "displayName": "tag",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "en_name": {
       "type": "string"
     },
     "articles": {
@@ -19,6 +20,9 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "mappedBy": "tags"
+    },
+    "vn_name": {
+      "type": "string"
     }
   }
 }
