@@ -61,6 +61,16 @@
     "vn_country": {
       "type": "string",
       "required": true
+    },
+    "coverImagePreview": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
