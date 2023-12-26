@@ -63,14 +63,24 @@
       "required": true
     },
     "coverImagePreview": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "time": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "vn_location": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_carousel_caorusels",
+  "info": {
+    "displayName": "caorusel",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "context": {
+      "type": "string",
+      "required": true
+    },
+    "vn_title": {
+      "type": "string",
+      "required": true
+    },
+    "vn_content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
