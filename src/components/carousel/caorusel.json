@@ -30,7 +30,7 @@
       "type": "string",
       "required": true
     },
-    "vn_content": {
+    "vn_context": {
       "type": "string",
       "required": true
     }
