@@ -61,7 +61,7 @@
       "required": true
     },
     "vn_description": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "coverImagePreview": {
