@@ -80,6 +80,38 @@
       "type": "component",
       "repeatable": true,
       "component": "related-article.related-article"
+    },
+    "cn_title": {
+      "type": "string",
+      "required": true
+    },
+    "cn_description": {
+      "type": "text",
+      "required": true
+    },
+    "cn_content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "zh_title": {
+      "type": "string",
+      "required": true
+    },
+    "zh_description": {
+      "type": "text",
+      "required": true
+    },
+    "zh_content": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

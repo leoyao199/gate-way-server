@@ -81,6 +81,50 @@
     },
     "vn_location": {
       "type": "string"
+    },
+    "cn_name": {
+      "type": "string",
+      "required": true
+    },
+    "cn_date": {
+      "type": "string",
+      "required": true
+    },
+    "cn_country": {
+      "type": "string",
+      "required": true
+    },
+    "cn_location": {
+      "type": "text",
+      "required": true
+    },
+    "zh_name": {
+      "type": "string",
+      "required": true
+    },
+    "zh_date": {
+      "type": "string",
+      "required": true
+    },
+    "zh_country": {
+      "type": "string",
+      "required": true
+    },
+    "cn_content": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "zh_content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

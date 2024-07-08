@@ -33,6 +33,22 @@
     "vn_context": {
       "type": "string",
       "required": true
+    },
+    "cn_title": {
+      "type": "string",
+      "required": true
+    },
+    "cn_context": {
+      "type": "text",
+      "required": true
+    },
+    "zh_title": {
+      "type": "string",
+      "required": true
+    },
+    "zh_context": {
+      "type": "string",
+      "required": true
     }
   }
 }
